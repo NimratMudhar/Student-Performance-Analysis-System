@@ -178,6 +178,7 @@ including procedural, object-oriented, and functional programming as well
 as structured programming. Due to its extensive standard library, it is
 frequently referred to as a "batteries included" language and can be used
 on the server side to create web applications.<br>
+
 <b>● Django:</b> High-level Python web framework Django promotes quick
 development and streamlined, practical design. It was created by seasoned
 programmers and handles a lot of the hassle associated with web
@@ -257,5 +258,152 @@ The process of functional modeling can be visualized in the following steps:<br>
 Teachers:</h3></b>
 ![Screenshot (130)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/791930cc-affc-4cf2-a21b-4c2c96402ac9)<br>
 <b>Figure 1:</b> Use Case Diagram for the system<br>
+
 <b><h3>Student:</h3></b><br>
 ![Screenshot (131)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/4d30b762-f92f-428d-bfde-bf0d92bbd1e0) <br>
+<b><h2>4.2.2. DFD as needed to show functional dependencies</h2></b><br>
+<b><h3>4.2.2.1 Context Level DFD</b></h3><br>
+![Screenshot (132)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/074fca6d-aca8-47bf-bbac-12942c6c0322)<br>
+
+<b><h3>4.2.2.2 First Level DFD</b></h3><br>
+![Screenshot (133)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/fa735003-72e3-4a39-8ef1-f47835839f7f) <br>
+
+<b><h3>4.2.3. Entity relationship (ER) Diagram</b></h3><br>
+![Screenshot (134)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/4a29dfb6-7571-46af-b3ea-8f388a72fffc) <br>
+
+<b><h3>4.3. Database Design</h3></b>
+Designing a database for a student results analysis website would involve
+creating tables to store the necessary data for users, students, courses, and
+results. Here's an example of a possible database design:<br>
+
+● Users Table:<br>
+
+![Screenshot (135)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/c1bc01f8-64b2-4f87-8ebd-145d31e80f2e) <br>
+
+● Students Table: <br>
+
+![Screenshot (136)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/099e7111-93ab-47f5-ace8-7262b70d970c) <br>
+
+● Courses Table:<br>
+
+![Screenshot (137)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/ca9dcca1-03df-41d8-a5ff-adcaddc78957) <br>
+
+● Results Table: <br>
+
+![Screenshot (138)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/1b9a5582-25b9-426b-b6a7-9cb2d49d520b) <br>
+With this database design, it's possible to store and retrieve data related to users, students, courses, and results. The Users table can be used to manage user accounts for the website, the Students table can be used to store information about each student, the Courses table can be used to store information about the courses offered, and the Results table can be used to store information about each student's performance in each course. With this data, it would be possible to analyze student results data and generate reports and visualizations.
+<b><h2>5. Implementations</h2></b>
+<b><h3>5.1. Operating System Used</h3></b>
+1. Linux, which is an operating system for computers. It is more reliable,
+compatible, and fast. It is user-friendly and developer-friendly too.
+2. You get different tools to run your pages in a local host. And that can be the
+difference.
+3. In Linux, it is easy to install the required dependencies for the project and also
+customize them as required in various stages of development.
+4. <b>Hardware:</b>  Processor Intel dual-core and above.
+5. <b>Internet Connection:</b> Existing telephone lines, Data card.
+6. <b>Browser: </b> Google Chrome, Firefox, and Internet Explorer 10 all in the latest version.
+<b><h2>6. Software Testing</h2></b>
+
+Black-box and white-box testing are two types of software testing techniques that can be used
+to test a student results analysis system. Here is an overview of both types of testing:
+<b><h3>6.1 Black-Box Testing:</h3></b>
+Black-box testing is a technique that focuses on the external functionality of the system
+without any knowledge of the internal workings of the system. The tester is not
+concerned with how the system works but rather with what the system does. The focus is
+on inputs and outputs, and testing is done to ensure that the system meets its functional
+requirements. In the context of a student results analysis system, black-box testing might
+involve testing the system's ability to retrieve student results, analyze them, and generate
+reports without knowing how the system does this internally.
+<b><h3>6.2 White-Box Testing:</h3></b>
+White-box testing is a technique that focuses on the internal workings of the system. The
+tester has access to the source code and is concerned with how the system works. The
+focus is on testing the logic of the system, ensuring that all paths and conditions are
+covered, and that the code is free of defects. In the context of a student results analysis
+system, white-box testing might involve testing the database queries, algorithms, and
+calculations used by the system to ensure that they are accurate and efficient. <br>
+When it comes to testing a student results analysis system, a combination of both
+black-box and white-box testing can be used to provide thorough testing coverage.
+Black-box testing can help ensure that the system meets its functional requirements and
+that its inputs and outputs are correct. White-box testing can help ensure that the system
+is efficient and free of defects in its underlying logic and processing.
+<b><h3>6.3 Scope of Testing:</h3></b>
+The testing covered all aspects of the system, including functional testing, user interface
+testing, integration testing, security testing, and performance testing. Black-box testing
+was used to validate the system's external functionality without any knowledge of the
+internal workings of the system, while white-box testing was used to validate the system's
+internal workings and the code's underlying logic.
+<b><h3>6.4 Results:</h3></b>
+The testing revealed the following results:
+<b><h3>6.4.1 Functional testing:</h3></b>
+The system was found to accurately retrieve student results from the database, analyze
+them, and generate reports as expected.
+<b><h3>6.4.2 User interface testing:</h3></b>
+The user interface was found to be intuitive and user-friendly, with easy navigation,
+clear labeling, and appropriate use of buttons, text boxes, and drop-down menus.
+<b><h3>6.4.3 Integration testing:</h3></b>
+The system successfully integrated with other systems, such as the database and email
+notification systems.
+<b><h3>6.4.4 Security testing:</h3></b>
+The system was found to be secure, with appropriate data encryption, access controls,
+and user authentication mechanisms in place.
+<b><h3>6.4.5 Performance testing:</h3></b>
+The system was found to be able to handle a large volume of data and users without
+slowing down or crashing, with good response times and scalability.
+<b><h3>6.4.6 White-box testing:</h3></b>
+The code was found to be well-structured, with all paths and conditions covered, and
+free of major defects.
+<b><h3>6.5 Conclusion:</h3></b>
+Based on the results of testing, the student results analysis system was found to be of
+high quality, meeting stakeholder requirements, and secure and reliable for use.
+However, some minor issues were identified, such as minor user interface problems and
+data discrepancies, which were addressed and resolved.
+<b><h2>8. Future scope</h2></b>
+The designed system has a wide range of potential applications in the future and can be
+improved further to offer more features and advantages. Here are a few potential future
+developments to take into account:<br>
+
+<b><h3>1. Artificial Intelligence-Based Adaptive Learning:</h3> </b>Employ cutting-edge AI
+algorithms to design tailored learning pathways for students based on their test
+results. The website may suggest study materials, tools, and practice tasks on the
+fly to fill in specific knowledge gaps, promoting effective and personalised
+learning experiences.<br>
+<b><h3>2. Interactive Test Creation:</h3></b> Add interactive components, such as multimedia
+content, simulations, and interactive diagrams, to the test creation function. This
+will make it possible for coaching centers to provide interactive examinations that
+encourage greater comprehension and application of knowledge.<br>
+<b><h3>3. Data-Driven Insights: </h3></b>Make use of data analytics and machine learning methods
+to produce thorough insights on patterns in student performance, frequent
+misunderstandings, and areas for development. These insights can be used by
+coaching centers to improve their lesson plans, curriculum designs, and
+intervention tactics, ultimately leading to better student outcomes.<br>
+<b><h3>4. Collaborative Learning Communities:</h3></b> Establish a forum for teachers, students,
+and coaching centers to communicate, share materials, and collaborate. This will
+stimulate peer-to-peer learning among teachers and students and the development
+of a supportive community that promotes knowledge sharing.<br>
+<b><h3>5. Integration with Learning Management Systems (LMS):</h3></b> To improve
+workflow for coaching centers, and strengthen integration with well-known LMS systems. This includes automatic grading, centralized test, and result
+management, and seamless student data synchronization. The entire user experience will be improved by this connection, which will also make running coaching centers' administrative responsibilities easier. <br>
+<b><h3>6. Remote Proctoring:</h3></b> Secure remote proctoring capabilities should be introduced
+to allow coaching centres to perform online tests honestly. To assure test
+legitimacy, the website can make use of technology like AI-based screen
+recording, video monitoring, and plagiarism detection.<br>
+<b><h3>7. Mobile Learning Experience:</h3></b> Develop a mobile application with offline access
+to study guides, quizzes, and test-taking features to enhance the mobile learning
+experience. By enabling students to study and practise even without an internet
+connection, this will support the expanding trend of mobile learning, improving
+accessibility and convenience.<br>
+<b><h3>8. Gamified Learning and Competitions: </h3></b>Competitions and gamified learning:
+Incorporate game elements like badges, achievements, and virtual incentives into
+the learning process. In order to encourage friendly rivalry, inspire students, and
+foster a sense of excitement and success, schedule regular online challenges or
+tournaments.<br>
+
+By incorporating these advanced features and continuously improving the website based on user
+feedback, the platform will become a comprehensive and indispensable tool for a small coaching
+centers, revolutionizing their teaching methodologies and empowering students to achieve their
+full potential.
+<b><h2>9. Conclusion</h2></b>
+In conclusion, the development of a website that assists small coaching centers in creating tests, analyzing results, and tracking performance is a significant advancement in the field of education. With the help of this website, coaching centers can streamline their assessment procedures and receive insightful data on student performance. The website gives coaching centers the ability to create thorough, personalized tests that complement their educational goals by providing a user-friendly test authoring interface. A comprehensive assessment of students' knowledge and abilities is possible because of the availability of a variety of questions kinds. The website's extensive performance monitoring and outcome analysis tools give coaching centers useful information. They can pinpoint a student's or a group's areas of strength and weakness, allowing for focused interventions and individualized education. This data-driven strategy maximizes student learning results while improving instructional efficiency. Furthermore, by centralizing test administration and result management, the website encourages efficiency and organization. Coaching centers can efficiently handle student data, organize exams, and get thorough reports, streamlining their administrative
+processes and saving time. The website also promotes collaboration and communication among coaching facilities, educators, students, and parents. Online portals and communication tools make it easy to interact with one another, enabling prompt feedback, tracking of progress, and active participation.
+In conclusion, the website's ability to design, evaluate, and track exams has a big impact on tiny coaching centers. It gives them the ability to improve their teaching methods, tailor lessons to each student, and give them a well-rounded educational experience. This website has the potential to significantly increase student performance and overall educational results because of its user-friendly layout and extensive functionality.
