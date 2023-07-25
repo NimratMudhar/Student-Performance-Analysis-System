@@ -253,3 +253,9 @@ The process of functional modeling can be visualized in the following steps:<br>
 ● Identify constraints.<br>
 ● Specify optimization criteria.<br>
 <b><h3>4.2.1 Use Case Diagram<br>
+
+Teachers:</h3></b>
+![Screenshot (130)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/791930cc-affc-4cf2-a21b-4c2c96402ac9)<br>
+<b>Figure 1:</b> Use Case Diagram for the system<br>
+<b><h3>Student:</h3></b><br>
+![Screenshot (131)](https://github.com/NimratMudhar/Student-Performance-Analysis-System/assets/112625923/4d30b762-f92f-428d-bfde-bf0d92bbd1e0) <br>
