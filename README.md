@@ -192,7 +192,7 @@ the web standard port, port 80.
 monitor screen.<br>
 ● Mouse – the software shall interact with the movement of the mouse and
 the mouse buttons. The mouse shall activate areas for data input,
-command buttons and select options from menus.<br>
+command buttons, and select options from menus.<br>
 ● Keyboard – the software shall interact with the keystrokes of the
 keyboard. The keyboard will input data into the active area of the
 database.
